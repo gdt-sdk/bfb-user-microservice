@@ -1,0 +1,8 @@
+[services]
+
+[services.server]
+HOST = "127.0.0.1"
+PORT = ":4000"
+
+[services.db]
+DB_URL = "postgres://exchanger:qwerty@localhost:5432/exchanger_server_dev?sslmode=disable"
